@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Items-->
+        <!--Zadania-->
         <scene sceneID="QkR-6o-r7g">
             <objects>
                 <tableViewController id="7lJ-B6-RTg" customClass="TodoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -40,7 +40,7 @@
                             <outlet property="delegate" destination="7lJ-B6-RTg" id="XCN-ud-Syz"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Items" id="RWl-St-hY4">
+                    <navigationItem key="navigationItem" title="Zadania" id="RWl-St-hY4">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="tE7-e5-uWC">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -61,6 +61,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mdD-0t-dx6">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.28829271610000001" green="0.29376416950000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="-338" y="-89"/>
         </scene>
-        <!--Todoey-->
+        <!--Kategorie-->
         <scene sceneID="iIQ-Hn-w4j">
             <objects>
                 <tableViewController id="Gzq-O5-uv9" customClass="CategoryViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,7 +99,7 @@
                             <outlet property="delegate" destination="Gzq-O5-uv9" id="tAj-uh-0GR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="Ogl-ft-Bod">
+                    <navigationItem key="navigationItem" title="Kategorie" id="Ogl-ft-Bod">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="tYo-NK-MH9">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -115,4 +116,5 @@
             <point key="canvasLocation" x="460" y="-90"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.28829271610000001" green="0.29376416950000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
